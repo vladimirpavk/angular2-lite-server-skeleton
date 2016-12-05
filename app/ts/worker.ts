@@ -5,5 +5,9 @@ export class WebWorker{
         this.webWorker=new Worker('./app/js/jscript.js');
 
         this.webWorker.postMessage(30);
+
+        this.webWorker.onmessage=((e)=>{
+            console.log('from ts: '+e.data);
+        })        
     }
 }
