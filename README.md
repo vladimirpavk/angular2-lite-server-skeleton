@@ -1,3 +1,8 @@
+# Deprecated
+For online modules (https://unpkg.com/) use this [link](https://github.com/vladimirpavk/Angular2-Skeleton-unpkg).
+
+For locally installed modules use this [link](https://github.com/vladimirpavk/Angular2-Skeleton).
+
 # Angular 2 application skeleton with lite server
 
 Node, Lite-server, TypeScript, BrowserSync, Angular2 application skeleton
